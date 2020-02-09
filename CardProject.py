@@ -1,5 +1,4 @@
-import random
-
+from utils import pickNumber
 
 def setUp():
     print('/////-----Welcome To WAR!-----\\\\\\\\\\')
@@ -67,10 +66,6 @@ def pickSuite():
         suite = "diamonds"
     return suite
 
-
-def pickNumber(n):
-    x = random.randint(1, n)
-    return x
 
 
 def printInstructions():
